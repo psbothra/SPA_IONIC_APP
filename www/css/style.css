@@ -1,0 +1,15 @@
+/* Empty. Add your own CSS if you like */
+.logo{
+	width: 50%;
+}
+.subHead{
+	text-decoration: underline;
+	color: teal;
+	font-size: large;
+}
+.search-list-inset{  overflow: hidden;
+  margin: 20px 0px;
+  border-radius: 2px;
+  background-color: #fff;}
+
+ 

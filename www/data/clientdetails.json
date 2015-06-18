@@ -1,0 +1,442 @@
+[
+    {
+        "client_id": 1, 
+        "fname": "Jacob", 
+        "lname": "Jaison", 
+        "org_name": "", 
+        "phone": "673-567-2345",
+        "email": "Jacob.Jaison@yahoo.com",
+		"address": "123 Groove St, Pavomnia, NJ, US",
+        "type":"Private",
+        "Account" : [
+                        {
+                            "Account ID": "1",
+                            "Account Name": "Jacob",
+                            "Account Value": "Enormo",
+                            "Available Balance": 23546,
+                            "Stock": [
+                                        {
+                                            "Symbol": "CTSH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": "$65000"
+                                        },
+                                        {
+                                            "Symbol": "MSOFT",
+                                            "Price": "$98",
+                                            "Qty": 500,
+                                            "Amount": "$49000"
+                                        },
+                                        {
+                                            "Symbol": "NOR",
+                                            "Price": "$40",
+                                            "Qty": 80,
+                                            "Amount": "$3200"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": "$4900"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": "$450000"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": "$90000"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": "$65000"
+                                        }
+                                    ]
+                        },
+                        {
+                            "Account ID": "2",
+                            "Account Name": "Rob",
+                            "Account Value": "Value",
+                            "Available Balance": 54654
+                        },
+                        {
+                            "Account ID": "3",
+                            "Account Name": "Steve",
+                            "Account Value": "Acc Value",
+                            "Available Balance": 897845
+                        },
+                         {
+                            "Account ID": "4",
+                            "Account Name": "Carney",
+                            "Account Value": "Enormo",
+                            "Available Balance": 23546
+                        },
+                        {
+                            "Account ID": "5",
+                            "Account Name": "Rob",
+                            "Account Value": "Value",
+                            "Available Balance": 54654
+                        },
+                        {
+                            "Account ID": "6",
+                            "Account Name": "Steve",
+                            "Account Value": "Acc Value",
+                            "Available Balance": 897845
+                        },
+                         {
+                            "Account ID": "7",
+                            "Account Name": "Carney",
+                            "Account Value": "Enormo",
+                            "Available Balance": 23546
+                        },
+                        {
+                            "Account ID": "8",
+                            "Account Name": "Rob",
+                            "Account Value": "Value",
+                            "Available Balance": 54654
+                        },
+                        {
+                            "Account ID": "9",
+                            "Account Name": "Steve",
+                            "Account Value": "Acc Value",
+                            "Available Balance": 897845
+                        }
+                   ]
+    },
+    {
+        "client_id": 2, 
+        "fname": "Steve", 
+        "lname": "Nuke", 
+        "org_name": "Bellview LLC", 
+        "phone": "123-456-4567",
+        "email": "financecontrol@bellview.com",
+        "address": "45 Havana Ave, Correy, PA, US",
+        "type":"Institutional",
+        "Account" : [
+                        {
+                            "Account ID": "1",
+                            "Account Name": "Steve",
+                            "Account Value": "Enormo",
+                            "Available Balance": 23546
+                        },
+                        {
+                            "Account ID": "2",
+                            "Account Name": "Rob",
+                            "Account Value": "Value",
+                            "Available Balance": 54654
+                        },
+                        {
+                            "Account ID": "3",
+                            "Account Name": "Steve",
+                            "Account Value": "Acc Value",
+                            "Available Balance": 897845
+                        },
+                         {
+                            "Account ID": "4",
+                            "Account Name": "Carney",
+                            "Account Value": "Enormo",
+                            "Available Balance": 23546
+                        },
+                        {
+                            "Account ID": "5",
+                            "Account Name": "Rob",
+                            "Account Value": "Value",
+                            "Available Balance": 54654
+                        },
+                        {
+                            "Account ID": "6",
+                            "Account Name": "Steve",
+                            "Account Value": "Acc Value",
+                            "Available Balance": 897845
+                        },
+                         {
+                            "Account ID": "7",
+                            "Account Name": "Carney",
+                            "Account Value": "Enormo",
+                            "Available Balance": 23546
+                        },
+                        {
+                            "Account ID": "8",
+                            "Account Name": "Rob",
+                            "Account Value": "Value",
+                            "Available Balance": 54654
+                        },
+                        {
+                            "Account ID": "9",
+                            "Account Name": "Steve",
+                            "Account Value": "Acc Value",
+                            "Available Balance": 897845
+                        }
+                   ]
+    },
+    {
+        "client_id": 3, 
+        "fname": "Rob", 
+        "lname": "Nelson", 
+        "org_name": "", 
+        "phone": "125-972-4567",
+        "email": "rob@gmail.com",
+        "address": "67 Avebu, Correy, NJ, US",
+        "type":"Private",
+        "Account" : [
+                        {
+                            "Account ID": "1",
+                            "Account Name": "Rob",
+                            "Account Value": "Enormo",
+                            "Available Balance": 23546
+                        },
+                        {
+                            "Account ID": "2",
+                            "Account Name": "Rob",
+                            "Account Value": "Value",
+                            "Available Balance": 54654
+                        },
+                        {
+                            "Account ID": "3",
+                            "Account Name": "Steve",
+                            "Account Value": "Acc Value",
+                            "Available Balance": 897845
+                        },
+                         {
+                            "Account ID": "4",
+                            "Account Name": "Carney",
+                            "Account Value": "Enormo",
+                            "Available Balance": 23546
+                        },
+                        {
+                            "Account ID": "5",
+                            "Account Name": "Rob",
+                            "Account Value": "Value",
+                            "Available Balance": 54654
+                        },
+                        {
+                            "Account ID": "6",
+                            "Account Name": "Steve",
+                            "Account Value": "Acc Value",
+                            "Available Balance": 897845
+                        },
+                         {
+                            "Account ID": "7",
+                            "Account Name": "Carney",
+                            "Account Value": "Enormo",
+                            "Available Balance": 23546
+                        },
+                        {
+                            "Account ID": "8",
+                            "Account Name": "Rob",
+                            "Account Value": "Value",
+                            "Available Balance": 54654
+                        },
+                        {
+                            "Account ID": "9",
+                            "Account Name": "Steve",
+                            "Account Value": "Acc Value",
+                            "Available Balance": 897845
+                        }
+                   ]
+    },
+    {
+        "client_id": 4, 
+        "fname": "Jack", 
+        "lname": "Dev", 
+        "org_name": "Haward University", 
+        "phone": "456-712-1278",
+        "email": "jackdev@haward.com",
+        "address": "62 Jae lawn, St Palo, SF, US",
+        "type":"Govt",
+        "Account" : [
+                        {
+                            "Account ID": "1",
+                            "Account Name": "Jack",
+                            "Account Value": "Enormo",
+                            "Available Balance": 23546
+                        },
+                        {
+                            "Account ID": "2",
+                            "Account Name": "Rob",
+                            "Account Value": "Value",
+                            "Available Balance": 54654
+                        },
+                        {
+                            "Account ID": "3",
+                            "Account Name": "Steve",
+                            "Account Value": "Acc Value",
+                            "Available Balance": 897845
+                        },
+                         {
+                            "Account ID": "4",
+                            "Account Name": "Carney",
+                            "Account Value": "Enormo",
+                            "Available Balance": 23546
+                        },
+                        {
+                            "Account ID": "5",
+                            "Account Name": "Rob",
+                            "Account Value": "Value",
+                            "Available Balance": 54654
+                        },
+                        {
+                            "Account ID": "6",
+                            "Account Name": "Steve",
+                            "Account Value": "Acc Value",
+                            "Available Balance": 897845
+                        },
+                         {
+                            "Account ID": "7",
+                            "Account Name": "Carney",
+                            "Account Value": "Enormo",
+                            "Available Balance": 23546
+                        },
+                        {
+                            "Account ID": "8",
+                            "Account Name": "Rob",
+                            "Account Value": "Value",
+                            "Available Balance": 54654
+                        },
+                        {
+                            "Account ID": "9",
+                            "Account Name": "Steve",
+                            "Account Value": "Acc Value",
+                            "Available Balance": 897845
+                        }
+                   ]
+    },
+    {
+        "client_id": 5, 
+        "fname": "Rahul", 
+        "lname": "Mehra", 
+        "org_name": "Temp Org", 
+        "phone": "123-456-4567",
+        "email": "rahul_mehra@temp.org",
+        "address": "36 Haw Ave, St Pavmo, NJ, US",
+        "type":"Muni",
+        "Account" : [
+                        {
+                            "Account ID": "1",
+                            "Account Name": "Rahul",
+                            "Account Value": "Enormo",
+                            "Available Balance": 23546
+                        },
+                        {
+                            "Account ID": "2",
+                            "Account Name": "Rob",
+                            "Account Value": "Value",
+                            "Available Balance": 54654
+                        },
+                        {
+                            "Account ID": "3",
+                            "Account Name": "Steve",
+                            "Account Value": "Acc Value",
+                            "Available Balance": 897845
+                        },
+                         {
+                            "Account ID": "4",
+                            "Account Name": "Carney",
+                            "Account Value": "Enormo",
+                            "Available Balance": 23546
+                        },
+                        {
+                            "Account ID": "5",
+                            "Account Name": "Rob",
+                            "Account Value": "Value",
+                            "Available Balance": 54654
+                        },
+                        {
+                            "Account ID": "6",
+                            "Account Name": "Steve",
+                            "Account Value": "Acc Value",
+                            "Available Balance": 897845
+                        },
+                         {
+                            "Account ID": "7",
+                            "Account Name": "Carney",
+                            "Account Value": "Enormo",
+                            "Available Balance": 23546
+                        },
+                        {
+                            "Account ID": "8",
+                            "Account Name": "Rob",
+                            "Account Value": "Value",
+                            "Available Balance": 54654
+                        },
+                        {
+                            "Account ID": "9",
+                            "Account Name": "Steve",
+                            "Account Value": "Acc Value",
+                            "Available Balance": 897845
+                        }
+                   ]
+    },
+   {
+        "client_id": 6, 
+        "fname": "Daniel", 
+        "lname": "Shaw", 
+        "org_name": "Google", 
+        "phone": "465-461-2132",
+        "email": "daniel.shaw@google.com",
+        "address": "22 St Dawn, Correy, NJ, US",
+        "type":"Corporation",
+        "Account" : [
+                        {
+                            "Account ID": "1",
+                            "Account Name": "Daniel",
+                            "Account Value": "Enormo",
+                            "Available Balance": 23546
+                        },
+                        {
+                            "Account ID": "2",
+                            "Account Name": "Rob",
+                            "Account Value": "Value",
+                            "Available Balance": 54654
+                        },
+                        {
+                            "Account ID": "3",
+                            "Account Name": "Steve",
+                            "Account Value": "Acc Value",
+                            "Available Balance": 897845
+                        },
+                         {
+                            "Account ID": "4",
+                            "Account Name": "Carney",
+                            "Account Value": "Enormo",
+                            "Available Balance": 23546
+                        },
+                        {
+                            "Account ID": "5",
+                            "Account Name": "Rob",
+                            "Account Value": "Value",
+                            "Available Balance": 54654
+                        },
+                        {
+                            "Account ID": "6",
+                            "Account Name": "Steve",
+                            "Account Value": "Acc Value",
+                            "Available Balance": 897845
+                        },
+                         {
+                            "Account ID": "7",
+                            "Account Name": "Carney",
+                            "Account Value": "Enormo",
+                            "Available Balance": 23546
+                        },
+                        {
+                            "Account ID": "8",
+                            "Account Name": "Rob",
+                            "Account Value": "Value",
+                            "Available Balance": 54654
+                        },
+                        {
+                            "Account ID": "9",
+                            "Account Name": "Steve",
+                            "Account Value": "Acc Value",
+                            "Available Balance": 897845
+                        }
+                   ]
+    }
+]

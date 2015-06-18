@@ -1,0 +1,44 @@
+[
+    {
+        "Symbol": "CTSH",
+        "Price": "$65",
+        "Qty": 1000,
+        "Amount": "$65000"
+    },
+    {
+        "Symbol": "MSOFT",
+        "Price": "$98",
+        "Qty": 500,
+        "Amount": "$49000"
+    },
+    {
+        "Symbol": "NOR",
+        "Price": "$40",
+        "Qty": 80,
+        "Amount": "$3200"
+    },
+    {
+        "Symbol": "DANG",
+        "Price": "$7",
+        "Qty": 700,
+        "Amount": "$4900"
+    },
+    {
+        "Symbol": "PAR",
+        "Price": "$90",
+        "Qty": 5000,
+        "Amount": "$450000"
+    },
+    {
+        "Symbol": "JMEI",
+        "Price": "$100",
+        "Qty": 90,
+        "Amount": "$90000"
+    },
+    {
+        "Symbol": "ISH",
+        "Price": "$65",
+        "Qty": 1000,
+        "Amount": "$65000"
+    }
+]

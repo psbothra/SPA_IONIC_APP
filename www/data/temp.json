@@ -1,0 +1,5 @@
+[
+      {id: "1", firstName: "John", lastName: "Doe", sex: "M"},
+      {id: "2", firstName: "Alice", lastName: "White", sex: "F"},
+      {id: "3", firstName: "Michael", lastName: "Green", sex: "M"}
+    ]

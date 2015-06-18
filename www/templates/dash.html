@@ -1,0 +1,54 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+  <div class="row">
+    <div class="col col-33"><img src="img/logo.gif" class="logo" /></div>
+    <div class="col"><span class="subHead">Financial Advisor -  Portfolio Manager</span></div>
+  </div>
+  <hr class="lightest"/>
+  <div  ng-controller="ClientCtrl">
+  <div class="row">
+    <div class="col">
+      <!-- label for value in array -->
+    
+    <select id="peopleArraySel1" ng-model="peopleArrayValue1" ng-change="changeItem(peopleArrayValue1.client_id)" ng-options="person.fname for person in peopleArray" class="padding full-width">
+      <option value="">Please Select Client</option>
+    </select>
+    </div>
+    <div class="col">
+      <div class="list list-inset margin-top-zero">
+        <label class="item item-input">
+          <i class="icon ion-search placeholder-icon"></i>
+          <input type="text" placeholder="Search">
+        </label>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row no-padding">
+        <div class="col no-padding">
+          <button class="button button-positive pull-right">
+            Preference
+          </button>
+        </div>
+        <div class="col no-padding">
+          <a class="button button-positive pull-right" href="#/login">
+            Sign Out
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div ng-show="peopleArrayValue1">
+    <div ng-include="'templates/clientDetails.html'"></div>
+    <div class="row">
+      <div class="col col-67">
+        <div ng-include="'templates/accountGrid.html'"></div>
+        <div ng-include="'templates/basicDetail.html'"></div>        
+      </div>
+      <div class="col col-33">
+        <div ng-include="'templates/pieChart.html'"></div>
+      </div>
+    </div>
+  </div>
+</div>
+  </ion-content>
+</ion-view>
