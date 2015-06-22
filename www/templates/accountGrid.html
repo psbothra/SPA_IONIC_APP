@@ -1,4 +1,5 @@
-<div>
-              <!--<div id="grid1" ui-grid="{ data: Account }" class="grid"></div>-->
-              <div class="grid" ui-grid="gridOptions" ></div>
-            </div>
+<div  ng-if="grid">
+    
+    <div class="gridStyle" ng-grid="grid" ui-grid-auto-resize></div>
+
+</div>

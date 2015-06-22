@@ -1,4 +1,18 @@
 
-    <div ng-controller="piechartCtrl">
-    	<highchart id="chart2" config="chartConfig" class="span12"></highchart>
-  	</div>
+  	<div ng-if="gridStock">
+        
+    <section id="tabs">
+        <ul ng-init="tab = 1">
+            <li ng-class="{active:tab===1}"> 
+                <a href ng-click="tab = 1">Instrument</a>    
+            </li>
+            <li ng-class="{active:tab===2}"> 
+                <a href ng-click="tab = 2">Asset Type</a> 
+            </li>
+            <div id="mainView">
+            <p ng-show="tab === 1"> <highchart id="chart2" config="chartConfig"></highchart> </p>
+            <p ng-show="tab === 2">  <highchart id="chart1" config="chartConfigBar"></highchart> </p>
+            </div>
+        </ul>       
+    </section>      
+</div>

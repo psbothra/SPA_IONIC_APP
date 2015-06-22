@@ -10,102 +10,405 @@
         "type":"Private",
         "Account" : [
                         {
-                            "Account ID": "1",
-                            "Account Name": "Jacob",
-                            "Account Value": "Enormo",
-                            "Available Balance": 23546,
+                            "Account_ID": "1",
+                            "Account_Name": "Jacob",
+                            "Account_Value": "Enormo",
+                            "Available_Balance": 23546,
                             "Stock": [
                                         {
                                             "Symbol": "CTSH",
                                             "Price": "$65",
                                             "Qty": 1000,
-                                            "Amount": "$65000"
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
                                         },
                                         {
                                             "Symbol": "MSOFT",
                                             "Price": "$98",
                                             "Qty": 500,
-                                            "Amount": "$49000"
+                                            "Amount": 49000,
+                                            "Asset": "Mutual Fund"
                                         },
                                         {
                                             "Symbol": "NOR",
                                             "Price": "$40",
                                             "Qty": 80,
-                                            "Amount": "$3200"
+                                            "Amount": 3200,
+                                            "Asset": "ETF"
                                         },
                                         {
                                             "Symbol": "DANG",
                                             "Price": "$7",
                                             "Qty": 700,
-                                            "Amount": "$4900"
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
                                         },
                                         {
                                             "Symbol": "PAR",
                                             "Price": "$90",
                                             "Qty": 5000,
-                                            "Amount": "$450000"
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
                                         },
                                         {
                                             "Symbol": "JMEI",
                                             "Price": "$100",
                                             "Qty": 90,
-                                            "Amount": "$90000"
+                                            "Amount": 90000,
+                                            "Asset": "Commodities"
                                         },
                                         {
                                             "Symbol": "ISH",
                                             "Price": "$65",
                                             "Qty": 1000,
-                                            "Amount": "$65000"
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
                                         }
                                     ]
                         },
                         {
-                            "Account ID": "2",
-                            "Account Name": "Rob",
-                            "Account Value": "Value",
-                            "Available Balance": 54654
+                            "Account_ID": "2",
+                            "Account_Name": "Rob",
+                            "Account_Value": "Value",
+                            "Available_Balance": 54654,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "3",
-                            "Account Name": "Steve",
-                            "Account Value": "Acc Value",
-                            "Available Balance": 897845
+                            "Account_ID": "3",
+                            "Account_Name": "Steve",
+                            "Account_Value": "Acc Value",
+                            "Available_Balance": 897845,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 400,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 4500,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        }
+                                    ]
                         },
                          {
-                            "Account ID": "4",
-                            "Account Name": "Carney",
-                            "Account Value": "Enormo",
-                            "Available Balance": 23546
+                            "Account_ID": "4",
+                            "Account_Name": "Carney",
+                            "Account_Value": "Enormo",
+                            "Available_Balance": 23546,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "5",
-                            "Account Name": "Rob",
-                            "Account Value": "Value",
-                            "Available Balance": 54654
+                            "Account_ID": "5",
+                            "Account_Name": "Rob",
+                            "Account_Value": "Value",
+                            "Available_Balance": 54654,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "6",
-                            "Account Name": "Steve",
-                            "Account Value": "Acc Value",
-                            "Available Balance": 897845
+                            "Account_ID": "6",
+                            "Account_Name": "Steve",
+                            "Account_Value": "Acc Value",
+                            "Available_Balance": 897845,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                          {
-                            "Account ID": "7",
-                            "Account Name": "Carney",
-                            "Account Value": "Enormo",
-                            "Available Balance": 23546
+                            "Account_ID": "7",
+                            "Account_Name": "Carney",
+                            "Account_Value": "Enormo",
+                            "Available_Balance": 23546,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "8",
-                            "Account Name": "Rob",
-                            "Account Value": "Value",
-                            "Available Balance": 54654
+                            "Account_ID": "8",
+                            "Account_Name": "Rob",
+                            "Account_Value": "Value",
+                            "Available_Balance": 54654,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "9",
-                            "Account Name": "Steve",
-                            "Account Value": "Acc Value",
-                            "Available Balance": 897845
+                            "Account_ID": "9",
+                            "Account_Name": "Steve",
+                            "Account_Value": "Acc Value",
+                            "Available_Balance": 897845,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         }
                    ]
     },
@@ -120,58 +423,405 @@
         "type":"Institutional",
         "Account" : [
                         {
-                            "Account ID": "1",
-                            "Account Name": "Steve",
-                            "Account Value": "Enormo",
-                            "Available Balance": 23546
+                            "Account_ID": "1",
+                            "Account_Name": "Jacob",
+                            "Account_Value": "Enormo",
+                            "Available_Balance": 23546,
+                            "Stock": [
+                                        {
+                                            "Symbol": "CTSH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "MSOFT",
+                                            "Price": "$98",
+                                            "Qty": 500,
+                                            "Amount": 49000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "NOR",
+                                            "Price": "$40",
+                                            "Qty": 80,
+                                            "Amount": 3200,
+                                            "Asset": "ETF"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 90000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "2",
-                            "Account Name": "Rob",
-                            "Account Value": "Value",
-                            "Available Balance": 54654
+                            "Account_ID": "2",
+                            "Account_Name": "Rob",
+                            "Account_Value": "Value",
+                            "Available_Balance": 54654,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "3",
-                            "Account Name": "Steve",
-                            "Account Value": "Acc Value",
-                            "Available Balance": 897845
+                            "Account_ID": "3",
+                            "Account_Name": "Steve",
+                            "Account_Value": "Acc Value",
+                            "Available_Balance": 897845,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 400,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 4500,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        }
+                                    ]
                         },
                          {
-                            "Account ID": "4",
-                            "Account Name": "Carney",
-                            "Account Value": "Enormo",
-                            "Available Balance": 23546
+                            "Account_ID": "4",
+                            "Account_Name": "Carney",
+                            "Account_Value": "Enormo",
+                            "Available_Balance": 23546,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "5",
-                            "Account Name": "Rob",
-                            "Account Value": "Value",
-                            "Available Balance": 54654
+                            "Account_ID": "5",
+                            "Account_Name": "Rob",
+                            "Account_Value": "Value",
+                            "Available_Balance": 54654,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "6",
-                            "Account Name": "Steve",
-                            "Account Value": "Acc Value",
-                            "Available Balance": 897845
+                            "Account_ID": "6",
+                            "Account_Name": "Steve",
+                            "Account_Value": "Acc Value",
+                            "Available_Balance": 897845,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                          {
-                            "Account ID": "7",
-                            "Account Name": "Carney",
-                            "Account Value": "Enormo",
-                            "Available Balance": 23546
+                            "Account_ID": "7",
+                            "Account_Name": "Carney",
+                            "Account_Value": "Enormo",
+                            "Available_Balance": 23546,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "8",
-                            "Account Name": "Rob",
-                            "Account Value": "Value",
-                            "Available Balance": 54654
+                            "Account_ID": "8",
+                            "Account_Name": "Rob",
+                            "Account_Value": "Value",
+                            "Available_Balance": 54654,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "9",
-                            "Account Name": "Steve",
-                            "Account Value": "Acc Value",
-                            "Available Balance": 897845
+                            "Account_ID": "9",
+                            "Account_Name": "Steve",
+                            "Account_Value": "Acc Value",
+                            "Available_Balance": 897845,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         }
                    ]
     },
@@ -186,58 +836,405 @@
         "type":"Private",
         "Account" : [
                         {
-                            "Account ID": "1",
-                            "Account Name": "Rob",
-                            "Account Value": "Enormo",
-                            "Available Balance": 23546
+                            "Account_ID": "1",
+                            "Account_Name": "Jacob",
+                            "Account_Value": "Enormo",
+                            "Available_Balance": 23546,
+                            "Stock": [
+                                        {
+                                            "Symbol": "CTSH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "MSOFT",
+                                            "Price": "$98",
+                                            "Qty": 500,
+                                            "Amount": 49000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "NOR",
+                                            "Price": "$40",
+                                            "Qty": 80,
+                                            "Amount": 3200,
+                                            "Asset": "ETF"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 90000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "2",
-                            "Account Name": "Rob",
-                            "Account Value": "Value",
-                            "Available Balance": 54654
+                            "Account_ID": "2",
+                            "Account_Name": "Rob",
+                            "Account_Value": "Value",
+                            "Available_Balance": 54654,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "3",
-                            "Account Name": "Steve",
-                            "Account Value": "Acc Value",
-                            "Available Balance": 897845
+                            "Account_ID": "3",
+                            "Account_Name": "Steve",
+                            "Account_Value": "Acc Value",
+                            "Available_Balance": 897845,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 400,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 4500,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        }
+                                    ]
                         },
                          {
-                            "Account ID": "4",
-                            "Account Name": "Carney",
-                            "Account Value": "Enormo",
-                            "Available Balance": 23546
+                            "Account_ID": "4",
+                            "Account_Name": "Carney",
+                            "Account_Value": "Enormo",
+                            "Available_Balance": 23546,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "5",
-                            "Account Name": "Rob",
-                            "Account Value": "Value",
-                            "Available Balance": 54654
+                            "Account_ID": "5",
+                            "Account_Name": "Rob",
+                            "Account_Value": "Value",
+                            "Available_Balance": 54654,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "6",
-                            "Account Name": "Steve",
-                            "Account Value": "Acc Value",
-                            "Available Balance": 897845
+                            "Account_ID": "6",
+                            "Account_Name": "Steve",
+                            "Account_Value": "Acc Value",
+                            "Available_Balance": 897845,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                          {
-                            "Account ID": "7",
-                            "Account Name": "Carney",
-                            "Account Value": "Enormo",
-                            "Available Balance": 23546
+                            "Account_ID": "7",
+                            "Account_Name": "Carney",
+                            "Account_Value": "Enormo",
+                            "Available_Balance": 23546,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "8",
-                            "Account Name": "Rob",
-                            "Account Value": "Value",
-                            "Available Balance": 54654
+                            "Account_ID": "8",
+                            "Account_Name": "Rob",
+                            "Account_Value": "Value",
+                            "Available_Balance": 54654,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "9",
-                            "Account Name": "Steve",
-                            "Account Value": "Acc Value",
-                            "Available Balance": 897845
+                            "Account_ID": "9",
+                            "Account_Name": "Steve",
+                            "Account_Value": "Acc Value",
+                            "Available_Balance": 897845,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         }
                    ]
     },
@@ -252,58 +1249,405 @@
         "type":"Govt",
         "Account" : [
                         {
-                            "Account ID": "1",
-                            "Account Name": "Jack",
-                            "Account Value": "Enormo",
-                            "Available Balance": 23546
+                            "Account_ID": "1",
+                            "Account_Name": "Jacob",
+                            "Account_Value": "Enormo",
+                            "Available_Balance": 23546,
+                            "Stock": [
+                                        {
+                                            "Symbol": "CTSH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "MSOFT",
+                                            "Price": "$98",
+                                            "Qty": 500,
+                                            "Amount": 49000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "NOR",
+                                            "Price": "$40",
+                                            "Qty": 80,
+                                            "Amount": 3200,
+                                            "Asset": "ETF"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 90000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "2",
-                            "Account Name": "Rob",
-                            "Account Value": "Value",
-                            "Available Balance": 54654
+                            "Account_ID": "2",
+                            "Account_Name": "Rob",
+                            "Account_Value": "Value",
+                            "Available_Balance": 54654,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "3",
-                            "Account Name": "Steve",
-                            "Account Value": "Acc Value",
-                            "Available Balance": 897845
+                            "Account_ID": "3",
+                            "Account_Name": "Steve",
+                            "Account_Value": "Acc Value",
+                            "Available_Balance": 897845,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 400,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 4500,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        }
+                                    ]
                         },
                          {
-                            "Account ID": "4",
-                            "Account Name": "Carney",
-                            "Account Value": "Enormo",
-                            "Available Balance": 23546
+                            "Account_ID": "4",
+                            "Account_Name": "Carney",
+                            "Account_Value": "Enormo",
+                            "Available_Balance": 23546,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "5",
-                            "Account Name": "Rob",
-                            "Account Value": "Value",
-                            "Available Balance": 54654
+                            "Account_ID": "5",
+                            "Account_Name": "Rob",
+                            "Account_Value": "Value",
+                            "Available_Balance": 54654,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "6",
-                            "Account Name": "Steve",
-                            "Account Value": "Acc Value",
-                            "Available Balance": 897845
+                            "Account_ID": "6",
+                            "Account_Name": "Steve",
+                            "Account_Value": "Acc Value",
+                            "Available_Balance": 897845,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                          {
-                            "Account ID": "7",
-                            "Account Name": "Carney",
-                            "Account Value": "Enormo",
-                            "Available Balance": 23546
+                            "Account_ID": "7",
+                            "Account_Name": "Carney",
+                            "Account_Value": "Enormo",
+                            "Available_Balance": 23546,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "8",
-                            "Account Name": "Rob",
-                            "Account Value": "Value",
-                            "Available Balance": 54654
+                            "Account_ID": "8",
+                            "Account_Name": "Rob",
+                            "Account_Value": "Value",
+                            "Available_Balance": 54654,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "9",
-                            "Account Name": "Steve",
-                            "Account Value": "Acc Value",
-                            "Available Balance": 897845
+                            "Account_ID": "9",
+                            "Account_Name": "Steve",
+                            "Account_Value": "Acc Value",
+                            "Available_Balance": 897845,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         }
                    ]
     },
@@ -318,58 +1662,405 @@
         "type":"Muni",
         "Account" : [
                         {
-                            "Account ID": "1",
-                            "Account Name": "Rahul",
-                            "Account Value": "Enormo",
-                            "Available Balance": 23546
+                            "Account_ID": "1",
+                            "Account_Name": "Jacob",
+                            "Account_Value": "Enormo",
+                            "Available_Balance": 23546,
+                            "Stock": [
+                                        {
+                                            "Symbol": "CTSH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "MSOFT",
+                                            "Price": "$98",
+                                            "Qty": 500,
+                                            "Amount": 49000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "NOR",
+                                            "Price": "$40",
+                                            "Qty": 80,
+                                            "Amount": 3200,
+                                            "Asset": "ETF"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 90000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "2",
-                            "Account Name": "Rob",
-                            "Account Value": "Value",
-                            "Available Balance": 54654
+                            "Account_ID": "2",
+                            "Account_Name": "Rob",
+                            "Account_Value": "Value",
+                            "Available_Balance": 54654,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "3",
-                            "Account Name": "Steve",
-                            "Account Value": "Acc Value",
-                            "Available Balance": 897845
+                            "Account_ID": "3",
+                            "Account_Name": "Steve",
+                            "Account_Value": "Acc Value",
+                            "Available_Balance": 897845,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 400,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 4500,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        }
+                                    ]
                         },
                          {
-                            "Account ID": "4",
-                            "Account Name": "Carney",
-                            "Account Value": "Enormo",
-                            "Available Balance": 23546
+                            "Account_ID": "4",
+                            "Account_Name": "Carney",
+                            "Account_Value": "Enormo",
+                            "Available_Balance": 23546,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "5",
-                            "Account Name": "Rob",
-                            "Account Value": "Value",
-                            "Available Balance": 54654
+                            "Account_ID": "5",
+                            "Account_Name": "Rob",
+                            "Account_Value": "Value",
+                            "Available_Balance": 54654,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "6",
-                            "Account Name": "Steve",
-                            "Account Value": "Acc Value",
-                            "Available Balance": 897845
+                            "Account_ID": "6",
+                            "Account_Name": "Steve",
+                            "Account_Value": "Acc Value",
+                            "Available_Balance": 897845,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                          {
-                            "Account ID": "7",
-                            "Account Name": "Carney",
-                            "Account Value": "Enormo",
-                            "Available Balance": 23546
+                            "Account_ID": "7",
+                            "Account_Name": "Carney",
+                            "Account_Value": "Enormo",
+                            "Available_Balance": 23546,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "8",
-                            "Account Name": "Rob",
-                            "Account Value": "Value",
-                            "Available Balance": 54654
+                            "Account_ID": "8",
+                            "Account_Name": "Rob",
+                            "Account_Value": "Value",
+                            "Available_Balance": 54654,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "9",
-                            "Account Name": "Steve",
-                            "Account Value": "Acc Value",
-                            "Available Balance": 897845
+                            "Account_ID": "9",
+                            "Account_Name": "Steve",
+                            "Account_Value": "Acc Value",
+                            "Available_Balance": 897845,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         }
                    ]
     },
@@ -384,58 +2075,405 @@
         "type":"Corporation",
         "Account" : [
                         {
-                            "Account ID": "1",
-                            "Account Name": "Daniel",
-                            "Account Value": "Enormo",
-                            "Available Balance": 23546
+                            "Account_ID": "1",
+                            "Account_Name": "Jacob",
+                            "Account_Value": "Enormo",
+                            "Available_Balance": 23546,
+                            "Stock": [
+                                        {
+                                            "Symbol": "CTSH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "MSOFT",
+                                            "Price": "$98",
+                                            "Qty": 500,
+                                            "Amount": 49000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "NOR",
+                                            "Price": "$40",
+                                            "Qty": 80,
+                                            "Amount": 3200,
+                                            "Asset": "ETF"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 90000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "2",
-                            "Account Name": "Rob",
-                            "Account Value": "Value",
-                            "Available Balance": 54654
+                            "Account_ID": "2",
+                            "Account_Name": "Rob",
+                            "Account_Value": "Value",
+                            "Available_Balance": 54654,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "3",
-                            "Account Name": "Steve",
-                            "Account Value": "Acc Value",
-                            "Available Balance": 897845
+                            "Account_ID": "3",
+                            "Account_Name": "Steve",
+                            "Account_Value": "Acc Value",
+                            "Available_Balance": 897845,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 400,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 4500,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        }
+                                    ]
                         },
                          {
-                            "Account ID": "4",
-                            "Account Name": "Carney",
-                            "Account Value": "Enormo",
-                            "Available Balance": 23546
+                            "Account_ID": "4",
+                            "Account_Name": "Carney",
+                            "Account_Value": "Enormo",
+                            "Available_Balance": 23546,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "5",
-                            "Account Name": "Rob",
-                            "Account Value": "Value",
-                            "Available Balance": 54654
+                            "Account_ID": "5",
+                            "Account_Name": "Rob",
+                            "Account_Value": "Value",
+                            "Available_Balance": 54654,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "6",
-                            "Account Name": "Steve",
-                            "Account Value": "Acc Value",
-                            "Available Balance": 897845
+                            "Account_ID": "6",
+                            "Account_Name": "Steve",
+                            "Account_Value": "Acc Value",
+                            "Available_Balance": 897845,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                          {
-                            "Account ID": "7",
-                            "Account Name": "Carney",
-                            "Account Value": "Enormo",
-                            "Available Balance": 23546
+                            "Account_ID": "7",
+                            "Account_Name": "Carney",
+                            "Account_Value": "Enormo",
+                            "Available_Balance": 23546,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "8",
-                            "Account Name": "Rob",
-                            "Account Value": "Value",
-                            "Available Balance": 54654
+                            "Account_ID": "8",
+                            "Account_Name": "Rob",
+                            "Account_Value": "Value",
+                            "Available_Balance": 54654,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         },
                         {
-                            "Account ID": "9",
-                            "Account Name": "Steve",
-                            "Account Value": "Acc Value",
-                            "Available Balance": 897845
+                            "Account_ID": "9",
+                            "Account_Name": "Steve",
+                            "Account_Value": "Acc Value",
+                            "Available_Balance": 897845,
+                            "Stock": [
+                                        {
+                                            "Symbol": "RUP",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "Stocks"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Commodities"
+                                        },
+                                        {
+                                            "Symbol": "JMEI",
+                                            "Price": "$100",
+                                            "Qty": 90,
+                                            "Amount": 900000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "DANG",
+                                            "Price": "$7",
+                                            "Qty": 700,
+                                            "Amount": 4900,
+                                            "Asset": "Currencies"
+                                        },
+                                        {
+                                            "Symbol": "PAR",
+                                            "Price": "$90",
+                                            "Qty": 5000,
+                                            "Amount": 450000,
+                                            "Asset": "Mutual Fund"
+                                        },
+                                        {
+                                            "Symbol": "ISH",
+                                            "Price": "$65",
+                                            "Qty": 1000,
+                                            "Amount": 65000,
+                                            "Asset": "ETF"
+                                        }
+                                    ]
                         }
                    ]
     }

@@ -41,6 +41,55 @@ $dark:                            #444 !default;
   overflow-x: hidden;
   margin-top: 10px; }
 
+.gridStyle {
+  border: 1px solid #d4d4d4;
+  width: 600px;
+  min-width: 300px !important;
+  height: 200px !important;
+  margin-bottom: 20px;
+  -moz-box-shadow: 6px 4px 6px 4px #ccc;
+  -webkit-box-shadow: 6px 4px 6px 4px #ccc;
+  box-shadow: 6px 4px 6px 4px #ccc; }
+
+.selectedItems {
+  float: left; }
+
+#tabs ul {
+  border-radius: 5px;
+  border: solid 1px #c6c6c6;
+  padding: 7px 10px 0px 10px;
+  background-color: #f8f8f8; }
+  #tabs ul li {
+    float: left;
+    background-color: #c8c8c8;
+    padding: 5px 10px;
+    margin: 5px 2px 0px 0px;
+    color: black;
+    list-style: none; }
+    #tabs ul li a {
+      text-decoration: none;
+      color: white;
+      font-style: italic;
+      text-shadow: 1px 0px 3px #9d9d9d; }
+  #tabs ul li:nth-child(1) {
+    border-radius: 4px 0px 0px 4px;
+    margin-left: 1px; }
+  #tabs ul li:nth-child(2) {
+    border-radius: 0px 4px 4px 0px; }
+
+#tabs ul li.active {
+  background-color: #00305e; }
+  #tabs ul li.active a {
+    background-color: #00305e; }
+
+.call-section {
+  font-size: 1.2em;
+  margin-top: 10px !important; }
+
+.subHead {
+  font-size: 1.2em;
+  text-decoration: underline; }
+
 /*!
   Ionicons, v2.0.1
   Created by Ben Sperry for the Ionic Framework, http://ionicons.com/

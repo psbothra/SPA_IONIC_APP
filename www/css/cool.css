@@ -1,0 +1,18 @@
+
+.item.item-positive{
+	border-color: blue;
+  background-color: blue;
+  color: #fff;
+}
+
+.button.button-positive{
+	border-color: blue;
+  background-color: blue;
+  color: #fff;
+}
+#tabs ul li.active {
+  background-color: blue;
+}
+#tabs ul li.active a {
+  background-color: blue;
+}
