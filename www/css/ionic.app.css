@@ -43,13 +43,20 @@ $dark:                            #444 !default;
 
 .gridStyle {
   border: 1px solid #d4d4d4;
-  width: 600px;
-  min-width: 300px !important;
+  width: 100%;
   height: 200px !important;
   margin-bottom: 20px;
-  -moz-box-shadow: 6px 4px 6px 4px #ccc;
-  -webkit-box-shadow: 6px 4px 6px 4px #ccc;
-  box-shadow: 6px 4px 6px 4px #ccc; }
+  -moz-box-shadow: 2px 1px 2px 1px #ccc;
+  -webkit-box-shadow: 2px 1px 2px 1px #ccc;
+  box-shadow: 2px 1px 2px 1px #ccc; }
+
+.gridStockStyle {
+  border: 1px solid #d4d4d4;
+  width: 100%;
+  height: 450px;
+  -moz-box-shadow: 2px 1px 2px 1px #ccc;
+  -webkit-box-shadow: 2px 1px 2px 1px #ccc;
+  box-shadow: 2px 1px 2px 1px #ccc; }
 
 .selectedItems {
   float: left; }
@@ -89,6 +96,26 @@ $dark:                            #444 !default;
 .subHead {
   font-size: 1.2em;
   text-decoration: underline; }
+
+.thead {
+  font-weight: bold;
+  background-color: #d4d4d4;
+  border: 1px solid #aaa; }
+
+.even_row {
+  background: #f1f1f1;
+  padding: 15px; }
+
+.odd_row {
+  padding: 15px; }
+
+.StockTable {
+  border: 1px solid #cecfd5;
+  overflow-y: scroll;
+  height: 450px;
+  -moz-box-shadow: 2px 1px 2px 1px #ccc;
+  -webkit-box-shadow: 2px 1px 2px 1px #ccc;
+  box-shadow: 2px 1px 2px 1px #ccc; }
 
 /*!
   Ionicons, v2.0.1
@@ -7749,3 +7776,23 @@ a.button {
   opacity: 0;
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
+
+.list:last-child.card {
+  margin-bottom: 0px;
+  margin-top: 0px; }
+
+.centerDiv {
+  width: 40%;
+  height: 200px;
+  top: 50%;
+  left: 30%; }
+
+.no-padding {
+  padding: 0px; }
+
+.button.button-positive.button-outline {
+  border: 0px;
+  line-height: 20px; }
+
+a.button .icon:before, a.button.icon:before, a.button.icon-left:before, a.button.icon-right:before {
+  line-height: 20px; }

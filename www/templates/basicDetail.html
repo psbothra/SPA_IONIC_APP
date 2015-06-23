@@ -1,3 +1,23 @@
 <div ng-if="gridStock">
-    <div class="gridStyle full-width" ng-grid="gridStock" ></div>
+    <!--<div class="gridStockStyle" ng-grid="gridStock" ></div>-->
+    
+    <div class="StockTable">
+    	<div class="row no-padding">
+    		<div class="col thead">Name</div>
+    		<div class="col thead">Symbol</div>
+    		<div class="col thead">Asset Class</div>
+    		<div class="col thead">Market Price</div>
+    		<div class="col thead">Quantity</div>   		
+    		<div class="col thead">Amount</div>
+    	</div>
+    	<div class="row no-padding"  ng-repeat="item in Stock">
+    			<div class="col" ng-class-odd="'odd_row'" ng-class-even="'even_row'">{{item.Company_Name}}</div>
+    			<div class="col" ng-class-odd="'odd_row'" ng-class-even="'even_row'">{{item.Symbol}}</div>
+    			<div class="col" ng-class-odd="'odd_row'" ng-class-even="'even_row'">{{item.Asset}}</div>
+    			<div class="col" ng-class-odd="'odd_row'" ng-class-even="'even_row'">{{item.Last_Market_Price}}</div>
+    			<div class="col" ng-class-odd="'odd_row'" ng-class-even="'even_row'">{{item.Qty}}</div>
+    			<div class="col" ng-class-odd="'odd_row'" ng-class-even="'even_row'">{{item.Amount | currency}}</div>
+    	</div>
+    </div>
+   
 </div>

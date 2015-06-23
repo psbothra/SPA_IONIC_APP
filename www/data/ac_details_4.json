@@ -1,0 +1,58 @@
+[
+	{
+		 "Account_ID": "1",
+		 "Account_Name": "Jack",
+		 "Account_City": "London",
+		 "Account_XYZ": "Dummy_564",
+		 "Account_Value": "ABC_1367",
+		 "Available_Balance": "$23,546"
+	},
+	{
+		 "Account_ID": "2",
+		 "Account_Name": "Ravy",
+		 "Account_City": "Paris",
+		 "Account_XYZ": "Dummy_123",
+		 "Account_Value": "VDF_768",
+		 "Available_Balance": "$4,52,546"
+	},
+	{
+		 "Account_ID": "3",
+		 "Account_Name": "Jasel",
+		 "Account_City": "Baltimore,MD",
+		 "Account_XYZ": "Dummy_9826",
+		 "Account_Value": "Enormo",
+		 "Available_Balance": "$4,564"
+	},
+	{
+		 "Account_ID": "4",
+		 "Account_Name": "Dave",
+		 "Account_City": "Macao",
+		 "Account_XYZ": "Dummy_879",
+		 "Account_Value": "JTX_7878",
+		 "Available_Balance": "$98,975"
+	},
+	{
+		 "Account_ID": "5",
+		 "Account_Name": "Nancy",
+		 "Account_City": "Texarkana,TX",
+		 "Account_XYZ": "Dummy_687687",
+		 "Account_Value": "ENT_87769",
+		 "Available_Balance": "$4,65,632"
+	},
+	{
+		 "Account_ID": "6",
+		 "Account_Name": "Rob",
+		 "Account_City": "Jersey_City,NJ",
+		 "Account_XYZ": "Dummy_099",
+		 "Account_Value": "GCF_987",
+		 "Available_Balance": "$23,546"
+	},
+	{
+		 "Account_ID": "7",
+		 "Account_Name": "Bob",
+		 "Account_City": "Buffalo,NY",
+		 "Account_XYZ": "Dummy_879",
+		 "Account_Value": "ELK_9879",
+		 "Available_Balance": "$21,321"
+	}
+]

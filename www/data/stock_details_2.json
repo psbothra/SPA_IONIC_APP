@@ -1,0 +1,66 @@
+[
+	{
+		"Company_Name":"Pfizer",
+		"Symbol": "PFE",
+		"Last_Market_Price": 34.37,
+		"Qty": 1000,
+		"Amount": 3437,
+		"Asset": "Stocks"
+	},
+	{
+		"Company_Name":"Nokia ADS",
+		"Symbol": "NOK",
+		"Last_Market_Price": 7.27,
+		"Qty": 2000,
+		"Amount": 14540,
+		"Asset": "Stocks"
+	},
+	{
+		"Company_Name":"T. Rowe Price Latin Amer",
+		"Symbol": "PRLAX",
+		"Last_Market_Price": 21.46,
+		"Qty": 1000,
+		"Amount": 21460,
+		"Asset": "Mutual Fund"
+	},
+	{
+		"Company_Name":"ProShares UltraShort Bloomberg Natrl Gas",
+		"Symbol": "KOLD",
+		"Last_Market_Price": 76.59,
+		"Qty": 500,
+		"Amount": 38295,
+		"Asset": "ETF"
+	},
+	{
+		"Company_Name":"Natural Gas Jul 15",
+		"Symbol": "NGN15.NYM",
+		"Last_Market_Price": 2.77,
+		"Qty": 10000,
+		"Amount": 27700,
+		"Asset": "Commodities"
+	},
+	{
+		"Company_Name":"US Dollar to Japanese Yen",
+		"Symbol": "USD/JPY",
+		"Last_Market_Price": 123.105,
+		"Qty": 1000,
+		"Amount": 12310.5,
+		"Asset": "Currencies"
+	},
+	{
+		"Company_Name":"General Electric",
+		"Symbol": "GE",
+		"Last_Market_Price": 27.37,
+		"Qty": 100,
+		"Amount": 2737,
+		"Asset": "Stocks"
+	},
+	{
+		"Company_Name":"AT&T",
+		"Symbol": "T",
+		"Last_Market_Price": 35.02,
+		"Qty": 1000,
+		"Amount": 3502,
+		"Asset": "Stocks"
+	}
+]

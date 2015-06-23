@@ -1,0 +1,51 @@
+[
+	{
+		"Symbol": "CTSH",
+		"Price": "$65",
+		"Qty": 1000,
+		"Amount": 65000,
+		"Asset": "Stocks"
+	},
+	{
+		"Symbol": "MSOFT",
+		"Price": "$98",
+		"Qty": 500,
+		"Amount": 49000,
+		"Asset": "Mutual Fund"
+	},
+	{
+		"Symbol": "NOR",
+		"Price": "$40",
+		"Qty": 80,
+		"Amount": 3200,
+		"Asset": "ETF"
+	},
+	{
+		"Symbol": "DANG",
+		"Price": "$7",
+		"Qty": 700,
+		"Amount": 4900,
+		"Asset": "Currencies"
+	},
+	{
+		"Symbol": "PAR",
+		"Price": "$90",
+		"Qty": 5000,
+		"Amount": 450000,
+		"Asset": "Mutual Fund"
+	},
+	{
+		"Symbol": "JMEI",
+		"Price": "$100",
+		"Qty": 90,
+		"Amount": 90000,
+		"Asset": "Commodities"
+	},
+	{
+		"Symbol": "ISH",
+		"Price": "$65",
+		"Qty": 1000,
+		"Amount": 65000,
+		"Asset": "ETF"
+	}
+]

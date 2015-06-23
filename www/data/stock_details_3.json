@@ -1,0 +1,114 @@
+[
+	{
+		"Company_Name":"T. Rowe Price Latin Amer",
+		"Symbol": "PRLAX",
+		"Last_Market_Price": 21.46,
+		"Qty": 1000,
+		"Amount": 21460,
+		"Asset": "Mutual Fund"
+	},
+	{
+		"Company_Name":"ProShares UltraShort Bloomberg Natrl Gas",
+		"Symbol": "KOLD",
+		"Last_Market_Price": 76.59,
+		"Qty": 500,
+		"Amount": 38295,
+		"Asset": "ETF"
+	},
+	{
+		"Company_Name":"Natural Gas Jul 15",
+		"Symbol": "NGN15.NYM",
+		"Last_Market_Price": 2.77,
+		"Qty": 10000,
+		"Amount": 27700,
+		"Asset": "Commodities"
+	},
+	{
+		"Company_Name":"Oracle",
+		"Symbol": "ORCL",
+		"Last_Market_Price": 42.74,
+		"Qty": 1000,
+		"Amount": 42740,
+		"Asset": "Stocks"
+	},
+	{
+		"Company_Name":"USAA Precious Metals & Min",
+		"Symbol": "USAGX",
+		"Last_Market_Price": 12.03,
+		"Qty": 500,
+		"Amount": 601.5,
+		"Asset": "Mutual Fund"
+	},
+	{
+		"Company_Name":"DB Agriculture Short ETN",
+		"Symbol": "ADZ",
+		"Last_Market_Price": 39.38,
+		"Qty": 1000,
+		"Amount": 39380,
+		"Asset": "ETF"
+	},
+	{
+		"Company_Name":"Crude Oil Jul 15",
+		"Symbol": "CL.NYM",
+		"Last_Market_Price": 60.09,
+		"Qty": 100,
+		"Amount": 6009,
+		"Asset": "Commodities"
+	},
+	{
+		"Company_Name":"Euro to US Dollar",
+		"Symbol": "EUR/USD",
+		"Last_Market_Price": 1.1314,
+		"Qty": 100000,
+		"Amount": 113140,
+		"Asset": "Currencies"
+	},
+	{
+		"Company_Name":"General Electric",
+		"Symbol": "GE",
+		"Last_Market_Price": 27.37,
+		"Qty": 100,
+		"Amount": 2737,
+		"Asset": "Stocks"
+	},
+	{
+		"Company_Name":"AT&T",
+		"Symbol": "T",
+		"Last_Market_Price": 35.02,
+		"Qty": 1000,
+		"Amount": 3502,
+		"Asset": "Stocks"
+	},
+	{
+		"Company_Name":"Matthews China Inv ",
+		"Symbol": "MCHFX",
+		"Last_Market_Price": 26,
+		"Qty": 500,
+		"Amount": 1300,
+		"Asset": "Mutual Fund"
+	},
+	{
+		"Company_Name":"ProShares Ultra Utilities",
+		"Symbol": "UPW",
+		"Last_Market_Price": 89.75,
+		"Qty": 1000,
+		"Amount": 89750,
+		"Asset": "ETF"
+	},
+	{
+		"Company_Name":"Heating Oil Jul 15",
+		"Symbol": "HON15.NYM",
+		"Last_Market_Price": 1.9,
+		"Qty": 10000,
+		"Amount": 19000,
+		"Asset": "Commodities"
+	},
+	{
+		"Company_Name":"Australian to US Dollar",
+		"Symbol": "AUD/USD",
+		"Last_Market_Price": 0.7759,
+		"Qty": 10000,
+		"Amount": 7759,
+		"Asset": "Currencies"
+	}
+]

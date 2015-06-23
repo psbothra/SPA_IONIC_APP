@@ -6,6 +6,7 @@
   </div>
   <hr class="lightest"/>
   <div  ng-controller="ClientCtrl">
+
     <div class="row responsive-sm">
     <div class="col">
    
@@ -20,8 +21,7 @@
           <i class="icon ion-search placeholder-icon"></i>
           <input type="text" placeholder="Search">
         </label>-->
-
-        Call {{peopleArrayValue1.fname}} {{peopleArrayValue1.lname}} : <i class="icon ion-ios-telephone-outline"></i> <a ng-href="tell:{{peopleArrayValue1.phone}}">{{peopleArrayValue1.phone}}</a>
+        Call {{peopleArrayValue1.fname}} :<a class="button icon-left ion-ios7-telephone button-positive button-outline" ng-href="tel: {{peopleArrayValue1.phone}}"><i class="icon ion-ios-telephone-outline"></i> {{peopleArrayValue1.phone}}</a>
       </div>
     </div>
     <div class="col">
@@ -40,20 +40,26 @@
       </div>
     </div>
   </div>
+ <link rel="stylesheet" href="css/{{stylePath}}">
   <div ng-show="peopleArrayValue1" >
     <div ng-include="'templates/clientDetails.html'"></div>
     <div class="row responsive-sm">
-      <div class="col col-67">
-        <div ng-include="'templates/accountGrid.html'"></div>
-        <div ng-include="'templates/basicDetail.html'"></div>        
+      <div class="col full-width">
+        <div ng-include="'templates/accountGrid.html'"></div>    
+	    </div>
+    </div>
+    <div class="row responsive-sm">
+      <div class="col col-50">
+        <div ng-include="'templates/basicDetail.html'" class="col"></div>        
       </div>
-      <div class="col col-33">
+      <div class="col col-50">
         <div ng-include="'templates/pieChart.html'"></div>
       </div>
     </div>
+    </div>
   </div>
-   
-  <link rel="stylesheet" href="css/{{stylePath}}">
+    
+ 
 </div>
   </ion-content>
 </ion-view>

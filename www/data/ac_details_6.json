@@ -1,0 +1,26 @@
+[
+	{
+		 "Account_ID": "1",
+		 "Account_Name": "Daniel",
+		 "Account_City": "London",
+		 "Account_XYZ": "Dummy_564",
+		 "Account_Value": "ABC_1367",
+		 "Available_Balance": "$23,546"
+	},
+	{
+		 "Account_ID": "2",
+		 "Account_Name": "Racheal",
+		 "Account_City": "Paris",
+		 "Account_XYZ": "Dummy_123",
+		 "Account_Value": "VDF_768",
+		 "Available_Balance": "$4,52,546"
+	},
+	{
+		 "Account_ID": "3",
+		 "Account_Name": "Jenny",
+		 "Account_City": "Baltimore,MD",
+		 "Account_XYZ": "Dummy_9826",
+		 "Account_Value": "Enormo",
+		 "Available_Balance": "$4,564"
+	}
+]
