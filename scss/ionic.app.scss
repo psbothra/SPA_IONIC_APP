@@ -24,10 +24,79 @@ $positive:                        #00305e !default;
 .no-padding{padding:0px!important;}
 .grid{height:200px!important;overflow-y:scroll;overflow-x:hidden;}
 .gridStock{height:150px!important;overflow-y:scroll;overflow-x:hidden;margin-top:10px;}
+.gridStyle {
+		border: 1px solid rgb(212,212,212);
+		width:100%;
+	    height   : 200px !important;
+		margin-bottom: 20px;
+		-moz-box-shadow:    2px 1px 2px 1px #ccc;
+		-webkit-box-shadow: 2px 1px 2px 1px #ccc;
+	    box-shadow:         2px 1px 2px 1px #ccc;
+	}
+.gridStockStyle {
+		border: 1px solid rgb(212,212,212);
+		width:100%;
+	    height   : 450px;
+		-moz-box-shadow:    2px 1px 2px 1px #ccc;
+		-webkit-box-shadow: 2px 1px 2px 1px #ccc;
+	    box-shadow:         2px 1px 2px 1px #ccc;
+	}
+	.selectedItems{
+		float: left; 
+	}
+#tabs{
+	ul{
+		border-radius: 5px;
+		border: solid 1px rgb(198, 198, 198);
+		padding: 7px 10px 0px 10px;
+		background-color: rgb(248,248,248);
+		li {
+			float: left;
+			background-color: rgb(200,200,200);
+			padding: 5px 10px ;
+			margin: 5px 2px 0px 0px;
+			color: black;
+			list-style: none;
+			a {
+				text-decoration: none;
+				color: white;
+				
+				font-style: italic;
+				text-shadow: 1px 0px 3px rgb(157, 157, 157);
 
+			}
+
+		}
+		li:nth-child(1) { border-radius: 4px 0px 0px 4px; margin-left: 1px;}
+		li:nth-child(2) { border-radius: 0px 4px 4px 0px;}
+	}
+}
+#tabs ul li.active{
+	background-color: #00305e;
+	 a {
+  		background-color: #00305e;
+  		}
+}
+.call-section{font-size:1.2em;margin-top:10px!important}
+.subHead{font-size:1.2em;text-decoration:underline;}
+.thead{font-weight:bold;background-color:rgb(212, 212, 212);border:1px solid #aaa;}
+.even_row{background:#f1f1f1;padding:15px;}
+.odd_row{padding:15px;}
+.StockTable{border: 1px solid #cecfd5;-moz-box-shadow:  2px 1px 2px 1px #ccc;-webkit-box-shadow: 2px 1px 2px 1px #ccc;box-shadow:         2px 1px 2px 1px #ccc;}
+.stockBody{overflow-y: scroll;  height: 410px;}
+.accountBody{overflow-y: scroll;  height: 150px;}
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/fonts" !default;
 
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
 
+.list:last-child.card{
+	margin-bottom:0px;
+	margin-top: 0px;
+} 
+.centerDiv { width:40%; height:200px;   top: 50%; left: 30%; }
+.no-padding{padding:0px;}
+.button.button-positive.button-outline{border:0px;line-height:20px;}
+a.button .icon:before, a.button.icon:before, a.button.icon-left:before, a.button.icon-right:before{line-height:20px;}
+.text-right{text-align:right;}

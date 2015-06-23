@@ -15,8 +15,8 @@
     			<div class="col" ng-class-odd="'odd_row'" ng-class-even="'even_row'">{{item.Company_Name}}</div>
     			<div class="col" ng-class-odd="'odd_row'" ng-class-even="'even_row'">{{item.Symbol}}</div>
     			<div class="col" ng-class-odd="'odd_row'" ng-class-even="'even_row'">{{item.Asset}}</div>
-    			<div class="col" ng-class-odd="'odd_row'" ng-class-even="'even_row'">{{item.Last_Market_Price}}</div>
-    			<div class="col" ng-class-odd="'odd_row'" ng-class-even="'even_row'">{{item.Qty | number}}</div>
+    			<div class="col text-right" ng-class-odd="'odd_row'" ng-class-even="'even_row'">{{item.Last_Market_Price | currency}}</div>
+    			<div class="col text-right" ng-class-odd="'odd_row'" ng-class-even="'even_row'">{{item.Qty}}</div>
     			<div class="col text-right" ng-class-odd="'odd_row'" ng-class-even="'even_row'">{{item.Amount | currency}}</div>
     	</div>
     </div>
