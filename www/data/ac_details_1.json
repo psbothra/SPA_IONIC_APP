@@ -1,58 +1,65 @@
 [
 	{
 		 "Account_ID": "1",
+		 "Account_Number": "012-23456",
 		 "Account_Name": "Jacob",
-		 "Account_City": "London",
-		 "Account_XYZ": "Dummy_564",
-		 "Account_Value": "ABC_1367",
-		 "Available_Balance": "$23,546"
+		 "Account_City": "Accra,Ghana",
+		 "Account_Type": "Short Trading",
+		 "Position_Balance": 2300,
+		 "Cash_Balance": 23546
 	},
 	{
 		 "Account_ID": "2",
+		 "Account_Number": "012-23457",
 		 "Account_Name": "Racheal",
-		 "Account_City": "Paris",
-		 "Account_XYZ": "Dummy_123",
-		 "Account_Value": "VDF_768",
-		 "Available_Balance": "$4,52,546"
+		 "Account_City": "Altenstadt,Germany",
+		 "Account_Type": "Separately Managed",
+		 "Position_Balance": 4520,
+		 "Cash_Balance": 452546
 	},
 	{
 		 "Account_ID": "3",
+		 "Account_Number": "012-23458",
 		 "Account_Name": "Jenny",
 		 "Account_City": "Baltimore,MD",
-		 "Account_XYZ": "Dummy_9826",
-		 "Account_Value": "Enormo",
-		 "Available_Balance": "$4,564"
+		 "Account_Type": "Day Trading",
+		 "Position_Balance": 620,
+		 "Cash_Balance": 4564
 	},
 	{
 		 "Account_ID": "4",
+		 "Account_Number": "012-23459",
 		 "Account_Name": "Dave",
-		 "Account_City": "Macao",
-		 "Account_XYZ": "Dummy_879",
-		 "Account_Value": "JTX_7878",
-		 "Available_Balance": "$98,975"
+		 "Account_City": "Atlanta,GA",
+		 "Account_Type": "Short Trading",
+		 "Position_Balance": 7820,
+		 "Cash_Balance": 98975
 	},
 	{
 		 "Account_ID": "5",
+		 "Account_Number": "012-23460",
 		 "Account_Name": "Nancy",
 		 "Account_City": "Texarkana,TX",
-		 "Account_XYZ": "Dummy_687687",
-		 "Account_Value": "ENT_87769",
-		 "Available_Balance": "$4,65,632"
+		 "Account_Type": "Reserve",
+		 "Position_Balance": 6578,
+		 "Cash_Balance": 465632
 	},
 	{
 		 "Account_ID": "6",
+		 "Account_Number": "012-23461",
 		 "Account_Name": "Rob",
 		 "Account_City": "Jersey_City,NJ",
-		 "Account_XYZ": "Dummy_099",
-		 "Account_Value": "GCF_987",
-		 "Available_Balance": "$23,546"
+		 "Account_Type": "Day Trading",
+		 "Position_Balance": 9578,
+		 "Cash_Balance": 23546
 	},
 	{
 		 "Account_ID": "7",
+		 "Account_Number": "012-23462",
 		 "Account_Name": "Bob",
 		 "Account_City": "Buffalo,NY",
-		 "Account_XYZ": "Dummy_879",
-		 "Account_Value": "ELK_9879",
-		 "Available_Balance": "$21,321"
+		 "Account_Type": "Short Trading",
+		 "Position_Balance": 6542,
+		 "Cash_Balance": 21321
 	}
 ]

@@ -23,11 +23,54 @@ angular.module('starter.controllers', ['highcharts-ng'])
 
 
 .controller('ClientCtrl', function($scope, ClientService, DashboadService, $http, $timeout) {
+		$scope.peopleArray = null;
+		$scope.Account = null;
+
+		// Basic Client Deatils Section
+		var promiseClient = ClientService.getClientData();
+		promiseClient.then(
+			function(data) {
+					$scope.peopleArray = data;
+			}
+		);
 		
-		var historyJson = ClientService.getHistoryData();
-		historyJson = DashboadService.addHistory();
-		historyJson = DashboadService.removeHistory();
+		$scope.getBalanceTotal = function(){
+		    var totalSum_Position_Balance = null;
+			angular.forEach($scope.Account,function(value,index){
+							totalSum_Position_Balance += value.Position_Balance;	   
+			});
+			return totalSum_Position_Balance;
+		}
 		
+		$scope.getAvailableCashTotal = function(){
+		    var totalSum_Cash_Balance = null;
+			angular.forEach($scope.Account,function(value,index){
+							totalSum_Cash_Balance += value.Cash_Balance;	   
+			});
+			return totalSum_Cash_Balance;
+		}
+
+		function getAccountData(clientId){
+			var promiseAc = ClientService.getAccountData(clientId);
+			promiseAc.then(
+				function(data) {
+						 $scope.Account = data;
+				}
+			);
+		}
+		
+		$scope.getStockGridData = function(index){
+				var promiseStock = ClientService.getStockData(index);
+				promiseStock.then(
+					function(data) {
+							$scope.Stock = data;	
+							$scope.gridStock = {data: 'Stock'};
+							plotPieChart(data);
+							plotBarChart(data);
+					}
+				);
+			}
+
 		$scope.tabs = [{
             title: 'Instrument',
             url: 'one.tpl.html'
@@ -47,29 +90,6 @@ angular.module('starter.controllers', ['highcharts-ng'])
 		}
 	
 	    
-		function getStockGridData(account_ID){
-			var promiseStock = ClientService.getStockData(account_ID);
-			promiseStock.then(
-				function(data) {
-						$scope.Stock = data;
-						
-						$scope.gridStock = {data: 'Stock'};
-						plotPieChart(data);
-						plotBarChart(data);
-				}
-			);
-		}
-		
-		function getAccountData(clientId){
-			var promiseAc = ClientService.getAccountData(clientId);
-			promiseAc.then(
-				function(data) {
-						 $scope.Account = data;
-				}
-			);
-		}
-		
-		
 		function plotBarChart(data){
 				var obj = DashboadService.getBarChartData(data);
 				$scope.chartConfigBar = {
@@ -149,16 +169,7 @@ angular.module('starter.controllers', ['highcharts-ng'])
 	
 	
 		
-		$scope.peopleArray = null;
-		$scope.Account = null;
-
-		// Basic Client Deatils Section
-		var promiseClient = ClientService.getClientData();
-		promiseClient.then(
-			function(data) {
-					$scope.peopleArray = data;
-			}
-		);
+		
 		
 		// Account Grid Section
 	  $scope.changeItem = function(iem){

@@ -2,14 +2,15 @@
   <ion-content class="padding">
       <div class="text-center padding">
         <img src="img/logo.gif" class="logo" />
+        <div class="col">Portfolio Advisor Application</div>
       </div>
 	 
 		  <div class="centerDiv list list-inset">
 			  <label class="item item-input">
-				  <input type="text" placeholder="Username" ng-model="data.username">
+				  <input type="text" placeholder="Username" ng-model="data.username" ng-change="data.username=data.username.toUpperCase();">
 			  </label>
 			  <label class="item item-input">
-				  <input type="password" placeholder="Password" ng-model="data.password">
+				  <input type="password" placeholder="Password" ng-model="data.password"  ng-change="data.password=data.password.toUpperCase();">
 			  </label>
 			  <button class="button button-block button-positive" ng-click="login()">Login</button>
 		  </div>

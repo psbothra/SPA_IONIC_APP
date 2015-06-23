@@ -4,7 +4,7 @@ angular.module('starter.services', [])
 	var loginUser = function(name, pw){ 
 			var def = $q.defer();
 			 //if (name == 'aa' && pw == 'aa') {
-          	if (name == 'FA01' && pw == 'pass123') {
+          	if (name == 'FA01' && pw == 'PASS123') {
 				def.resolve("Ok");
             }else{
 				def.resolve("Fail");
@@ -50,13 +50,6 @@ angular.module('starter.services', [])
 			return def.promise;
 	};
 	
-	var getHistoryData = function(){ 
-			var def = $q.defer();
-			$http.get('data/history.json').success(function (data){
-				def.resolve(data);
-			});
-			return def.promise;
-	};
 	
 	      
   return {
@@ -68,9 +61,6 @@ angular.module('starter.services', [])
 	},
 	getStockData: function(account_ID) {
 	  return getStockData(account_ID);
-	},
-	getHistoryData: function() {
-	  return getStockData();
 	}
 	
   };	

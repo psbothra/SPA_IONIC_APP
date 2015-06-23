@@ -1,26 +1,29 @@
 [
 	{
 		 "Account_ID": "1",
+		 "Account_Number": "012-23456",
 		 "Account_Name": "Daniel",
-		 "Account_City": "London",
-		 "Account_XYZ": "Dummy_564",
-		 "Account_Value": "ABC_1367",
-		 "Available_Balance": "$23,546"
+		 "Account_City": "Accra,Ghana",
+		 "Account_Type": "Short Trading",
+		 "Position_Balance": 2300,
+		 "Cash_Balance": 23546
 	},
 	{
 		 "Account_ID": "2",
+		 "Account_Number": "012-23457",
 		 "Account_Name": "Racheal",
-		 "Account_City": "Paris",
-		 "Account_XYZ": "Dummy_123",
-		 "Account_Value": "VDF_768",
-		 "Available_Balance": "$4,52,546"
+		 "Account_City": "Altenstadt,Germany",
+		 "Account_Type": "Separately Managed",
+		 "Position_Balance": 4520,
+		 "Cash_Balance": 452546
 	},
 	{
 		 "Account_ID": "3",
+		 "Account_Number": "012-23458",
 		 "Account_Name": "Jenny",
 		 "Account_City": "Baltimore,MD",
-		 "Account_XYZ": "Dummy_9826",
-		 "Account_Value": "Enormo",
-		 "Available_Balance": "$4,564"
+		 "Account_Type": "Day Trading",
+		 "Position_Balance": 620,
+		 "Cash_Balance": 4564
 	}
 ]

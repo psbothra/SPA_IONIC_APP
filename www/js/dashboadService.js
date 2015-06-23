@@ -1,7 +1,6 @@
 angular.module('starter.dashboadService', [])
 .factory('DashboadService', function() {
-  
-  
+   
   var getPieChartData = function(data){
 	  var processed_json = new Array();
 	  angular.forEach(data,function(value,index){
@@ -43,25 +42,12 @@ angular.module('starter.dashboadService', [])
 			"totalSum_Currencies":totalSum_Currencies};
   };
   
-   var addHistory = function(data,clientObj){
-	   return null; //data.push(clientObj);
-   };
-   var removeHistory = function(data,id){
-		return null; //data.slice(id);
-   };
-      
   return {
     getPieChartData: function(data) {
       return getPieChartData(data);
     },
 	getBarChartData: function(data) {
       return getBarChartData(data);
-    },
-	addHistory: function(data,clientObj) {
-      return addHistory(data,clientObj);
-    },
-	removeHistory: function(data,id) {
-      return removeHistory(data,id);
     }
   };
 });

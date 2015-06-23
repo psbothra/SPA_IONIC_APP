@@ -1,34 +1,56 @@
 [
 	{
 		 "Account_ID": "1",
+		 "Account_Number": "012-23500",
 		 "Account_Name": "Steve",
-		 "Account_City": "London",
-		 "Account_XYZ": "Dummy_564",
-		 "Account_Value": "ABC_1367",
-		 "Available_Balance": "$23,546"
+		 "Account_City": "Amsterdam,Neth.",
+		 "Account_Type": "Short Trading",
+		 "Position_Balance": 230,
+		 "Cash_Balance": 235
 	},
 	{
 		 "Account_ID": "2",
-		 "Account_Name": "John",
-		 "Account_City": "Paris",
-		 "Account_XYZ": "Dummy_123",
-		 "Account_Value": "VDF_768",
-		 "Available_Balance": "$4,52,546"
+		 "Account_Number": "012-23501",
+		 "Account_Name": "Jeal",
+		 "Account_City": "Central_Islip,NY",
+		 "Account_Type": "Separately Managed",
+		 "Position_Balance": 520,
+		 "Cash_Balance": 4546
 	},
 	{
 		 "Account_ID": "3",
-		 "Account_Name": "Jem",
-		 "Account_City": "Baltimore,MD",
-		 "Account_XYZ": "Dummy_9826",
-		 "Account_Value": "Enormo",
-		 "Available_Balance": "$4,564"
+		 "Account_Number": "012-23502",
+		 "Account_Name": "John",
+		 "Account_City": "Fort_Dodge,IA",
+		 "Account_Type": "Day Trading",
+		 "Position_Balance": 20,
+		 "Cash_Balance": 45
 	},
 	{
 		 "Account_ID": "4",
-		 "Account_Name": "Dave",
-		 "Account_City": "Macao",
-		 "Account_XYZ": "Dummy_879",
-		 "Account_Value": "JTX_7878",
-		 "Available_Balance": "$98,975"
+		 "Account_Number": "012-23503",
+		 "Account_Name": "Daniel",
+		 "Account_City": "Johannesburg,S_Africa",
+		 "Account_Type": "Short Trading",
+		 "Position_Balance": 720,
+		 "Cash_Balance": 985
+	},
+	{
+		 "Account_ID": "5",
+		 "Account_Number": "012-23504",
+		 "Account_Name": "Nawieck",
+		 "Account_City": "Newport,KY",
+		 "Account_Type": "Reserve",
+		 "Position_Balance": 6578,
+		 "Cash_Balance": 4652
+	},
+	{
+		 "Account_ID": "6",
+		 "Account_Number": "012-23505",
+		 "Account_Name": "Rob",
+		 "Account_City": "JPensacola,FL",
+		 "Account_Type": "Day Trading",
+		 "Position_Balance": 9578,
+		 "Cash_Balance": 23546
 	}
 ]

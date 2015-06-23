@@ -1,5 +1,24 @@
 <div ng-if="grid">
     
-    <div class="gridStyle" ng-grid="grid"></div>
-
+    <!--<div class="gridStyle" ng-grid="grid"></div>-->
+     <div class="AccountTable">
+    	<div class="row no-padding">
+    		<div class="col thead">Account Number</div>
+    		<div class="col thead">Account Contact</div>
+    		<div class="col thead">Account City</div>
+    		<div class="col thead">Account Type</div>
+    		<div class="col thead">Position Balance</div>   		
+    		<div class="col thead">Cash Balance</div>
+    	</div>
+    	<div class="accountBody">
+	    	<div class="row no-padding"  ng-repeat="item in Account" ng-click="getStockGridData({{item.Account_ID}});">
+	    			<div class="col" ng-class-odd="'odd_row'" ng-class-even="'even_row'">{{item.Account_Number}}</div>
+	    			<div class="col" ng-class-odd="'odd_row'" ng-class-even="'even_row'">{{item.Account_Name}}</div>
+	    			<div class="col" ng-class-odd="'odd_row'" ng-class-even="'even_row'">{{item.Account_City}}</div>
+	    			<div class="col" ng-class-odd="'odd_row'" ng-class-even="'even_row'">{{item.Account_Type}}</div>
+	    			<div class="col" ng-class-odd="'odd_row'" ng-class-even="'even_row'">{{item.Position_Balance | number}}</div>
+	    			<div class="col text-right" ng-class-odd="'odd_row'" ng-class-even="'even_row'">{{item.Cash_Balance | currency}}</div>
+	    	</div>
+    	</div>
+    </div>
 </div>

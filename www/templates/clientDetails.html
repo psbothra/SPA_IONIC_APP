@@ -5,12 +5,12 @@
             <div class="item item-body">
               <div class="row responsive-sm">
                 <div class="col">Client Name: {{peopleArrayValue1.fname}} {{peopleArrayValue1.lname}}</div>
-                <div class="col">Overall Portfolio Value</div>
+                                <div class="col">Overall Portfolio Value: {{getBalanceTotal(totalSum_Position_Balance) | number}}</div>
               </div>
               <div class="row responsive-sm">
                 <div class="col">Client Phone: {{peopleArrayValue1.phone}}</div>
                
-                <div class="col">Available Cash </div>
+                <div class="col">Available Cash : {{getAvailableCashTotal(totalSum_Cash_Balance) | currency}}</div>
               </div>
               <div class="row responsive-sm">
                 <div class="col">Client Address: {{peopleArrayValue1.address}}</div>
